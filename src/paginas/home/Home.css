@@ -1,0 +1,11 @@
+.titulo{
+    color: blueviolet;
+    text-align: center;
+}
+
+.img{
+    /* width: 450px ;
+    height: 125px; */
+    display: block;
+    margin: 0 auto;
+}
