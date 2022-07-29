@@ -8,18 +8,18 @@ import { Box } from '@mui/material';
 export default function Navbar() {
     return (
         <>
-            <AppBar position="static">
+            <AppBar style={{ backgroundColor: "#397683" }}>
                 <Toolbar variant="dense">
                     <Box style={{ cursor: "pointer" }} >
                         <Typography variant="h5" color="inherit">
-                            BlogPessoal
+                            Blog Fernanda Neves
                         </Typography>
                     </Box>
 
                     <Box display="flex" justifyContent="start">
                         <Box mx={1} style={{ cursor: "pointer" }}>
                             <Typography variant="h6" color="inherit">
-                                home
+                                Home
                             </Typography>
                         </Box>
                         <Box mx={1} style={{ cursor: "pointer" }}>
