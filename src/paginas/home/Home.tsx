@@ -1,7 +1,8 @@
-import { Button, Grid, Typography } from '@material-ui/core'
-import { Box } from '@mui/material'
-import React from 'react'
-import './Home.css'
+import { Button, Grid, Typography } from '@material-ui/core';
+import { Box } from '@mui/material';
+import React from 'react';
+import './Home.css';
+import TabPostagem from '../../components/postagens/tabpostagem/TabPostagem';
 
 function Home() {
   return (
@@ -22,10 +23,11 @@ function Home() {
           <img src="https://www.kindpng.com/picc/m/149-1490227_transparent-mike-wazowski-clipart-sully-monsters-inc-png.png" alt="" />
         </Grid>
         <Grid xs={12} className='postagens'>
+          <TabPostagem />
         </Grid>
       </Grid>
     </>
   )
 }
 
-export default Home
+export default Home;
